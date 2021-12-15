@@ -11,3 +11,4 @@ const targetSheet = styleSheetsArray.find((styleSheet) => {
   }
 });
 console.log(targetSheet);
+targetSheet.disabled = true ;

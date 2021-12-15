@@ -10,3 +10,5 @@ const targetSheet = styleSheetsArray.find((styleSheet) => {
   }
 });
 console.log(targetSheet);
+targetSheet.insertRule(".animals li a {border-color: green }", 1)
+targetSheet.deleteRule(0);

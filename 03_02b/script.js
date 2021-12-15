@@ -1,2 +1,5 @@
 const styleSheet = document.styleSheets[0];
-console.log(styleSheet.cssRules[2].cssText);
+console.log(styleSheet.cssRules[2].style.getPropertyValue("max-inline-size"));
+
+styleSheet.cssRules = document.styleSheets[0];
+console.log(styleSheet.cssRules[2].style.getPropertyValue("max-inline-size"));
